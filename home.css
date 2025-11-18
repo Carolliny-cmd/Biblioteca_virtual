@@ -71,7 +71,7 @@ table td, table th {
   text-align: center;
   border-bottom: 1px solid #ddd;
   vertical-align: middle;
-  padding: 10px 150px;
+  padding: 10px 130px;
 }
 table tr:hover {
   background-color: #d2dbdd;
@@ -80,4 +80,38 @@ table tr:hover {
 
 table tr:last-child td {
   border-bottom: none; /* remove a linha da última linha */
+}
+
+/* Estilo para os botões de add, editar e excluir*/
+.btn-add {
+  margin: 20px 0;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.edit {
+  background-color: #2196F3;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.edit:hover, .delete:hover, .btn-add:hover {
+  opacity: 0.8;
 }
